@@ -1,5 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @layer base { */
+    #gradient-canvas {
+        width:100%;
+        height:100%;
+        --gradient-color-1: #a00060; 
+        --gradient-color-2: #34b5ff; 
+        --gradient-color-3: #4c06fd;  
+        --gradient-color-4: #018ce9;
+        z-index: 4;
+        position: absolute;
+
+        /* opacity: 0.8; */
+
+	    clip-path: polygon(0 0, 100% 0, 100% 25%, 0 56%);
+
+    }
+/* } */
