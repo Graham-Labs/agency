@@ -11,7 +11,7 @@ const HeroSection = dynamic(() => import("../components/HeroSection"), {
 
 export default function Home() {
 	return (
-		<div>
+		<div className="overflow-x-hidden">
 			<HiddenHeadTag />
 			{/* <ComingSoon /> */}
 
