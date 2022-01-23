@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import HiddenHeadTag from "../components/HiddenHeadTag";
 import ComingSoon from "../components/ComingSoon";
+import CompaniesWorkedWith from "../components/CompaniesWorkedWith";
+
 // import HeroSection from "../components/HeroSectionBG";
 import dynamic from "next/dynamic";
 
@@ -18,6 +20,7 @@ export default function Home() {
 			{/* Nav Bar */}
 			{/* Hero Section */}
 			<HeroSection />
+			<CompaniesWorkedWith />
 
 			{/* CompaniesWorkedWith */}
 			{/* Our Services */}

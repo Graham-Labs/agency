@@ -2,7 +2,7 @@ import { AnnotationIcon,PaperAirplaneIcon } from "@heroicons/react/solid";
 
 const MenuSection = ({ heading }) => {
 	return (
-		<ul className="flex flex-col justify-between items-center font-poppins font-normal text-[16px] my-1 w-full border-t-[#0a2540] border-dashed border-b-2 ">
+		<ul className="flex flex-col justify-between items-center font-poppins font-normal text-[16px] my-1 w-full border-t-[#0a2540] border-dashed border-b-2">
 			<li className="my-3 w-full">
 				<div className="h-[40px] flex items-center px-7 font-medium text-gray-400 mb-2">
 					{heading}

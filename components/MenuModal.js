@@ -82,7 +82,7 @@ const Modal = ({ handleClose, text }) => {
 					heading={"How to work with us?"}
 					items={services}
 				/>
-				<MenuSection heading={"Why us?"} items={services} />
+				{/* <MenuSection heading={"Why us?"} items={services} /> */}
 			</div>
 		</ModalWrapper>
 	);
@@ -110,4 +110,6 @@ const ModalWrapper = styled(motion.div)`
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	overflow-y: hidden;
 `;

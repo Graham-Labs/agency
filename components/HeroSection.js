@@ -13,7 +13,7 @@ function HeroSection() {
 	};
 
 	return (
-		<div className="h-[900px] w-screen bg-white flex items-start relative">
+		<div className="h-[900px] w-screen bg-white flex items-start relative overflow-y-visible">
 			<HeroSectionBG></HeroSectionBG>
 			<AnimatePresence
 				initial={false}
