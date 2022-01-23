@@ -1,4 +1,4 @@
-import { AnnotationIcon } from "@heroicons/react/solid";
+import { AnnotationIcon,PaperAirplaneIcon } from "@heroicons/react/solid";
 
 const MenuSection = ({ heading }) => {
 	return (
@@ -9,7 +9,7 @@ const MenuSection = ({ heading }) => {
 				</div>
 				<ul className="w-full font-semibold text-[#0a2540] text-[13px] flex flex-col h-[180px] flex-wrap px-7">
 					<li className="my-2 flex items-center">
-						<AnnotationIcon className="h-5 w-5" />
+						<PaperAirplaneIcon className="h-5 w-5" />
 						<p className="ml-2">Computer Vision</p>
 					</li>
 
