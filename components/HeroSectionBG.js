@@ -1079,6 +1079,7 @@ function HeroSectionBG() {
 		<canvas
 			ref={canvasRef}
 			id="gradient-canvas"
+			className="scroll-x-hidden scroll-y-hidden"
 			data-transition-in
 		></canvas>
 	);

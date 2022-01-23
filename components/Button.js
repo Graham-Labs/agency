@@ -35,7 +35,7 @@ function Button({ text }) {
 export default Button;
 
 const ButtonContainer = styled.div`
-	display: flex;
+	display: none;
 
 	.button {
 		font-family: poppins, sans-serif;
