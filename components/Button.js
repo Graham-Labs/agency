@@ -37,63 +37,68 @@ export default Button;
 const ButtonContainer = styled.div`
 	display: none;
 
-	.button {
-		font-family: poppins, sans-serif;
-		border-radius: 20px;
-		color: white;
-		font-weight: light;
-		font-size: 14px;
-		padding: 8px 20px;
-		text-decoration: none;
-		transition: all 150ms ease-in-out;
-
+	@media (min-width: 1280px) {
 		display: flex;
 
-		background-color: #fcfcfc36;
+		.button {
+			font-family: poppins, sans-serif;
+			border-radius: 20px;
+			color: white;
+			font-weight: light;
+			font-size: 14px;
+			padding: 8px 20px;
+			text-decoration: none;
+			transition: all 150ms ease-in-out;
 
-		&:hover {
-			background-color: #fcfcfc52;
-		}
+			display: flex;
 
-		&:not(:first-of-type) {
-			margin-left: 15px;
-		}
-
-		&.bg-blue {
-			color: #fff;
+			background-color: #fcfcfc36;
 
 			&:hover {
-				background-color: #0a2540;
+				background-color: #fcfcfc52;
+			}
+
+			&:not(:first-of-type) {
+				margin-left: 15px;
+			}
+
+			&.bg-blue {
+				color: #fff;
+
+				&:hover {
+					background-color: #0a2540;
+				}
 			}
 		}
-	}
 
-	.button-arrow {
-		.arrow-icon {
-			overflow: visible;
-			margin-left: 3px;
-			width: 8px;
-		}
+		.button-arrow {
+			.arrow-icon {
+				overflow: visible;
+				margin-left: 3px;
+				width: 8px;
+			}
 
-		.arrow-head {
-			transform: translateX(0);
-			transition: transform 150ms ease-in-out;
-		}
-
-		.arrow-body {
-			opacity: 0;
-			transform: scaleX(1);
-			transition: transform 150ms ease-in-out, opacity 150ms ease-in-out;
-		}
-
-		&:hover {
 			.arrow-head {
-				transform: translateX(3px);
+				transform: translateX(0);
+				transition: transform 150ms ease-in-out;
 			}
 
 			.arrow-body {
-				opacity: 1;
-				transform: scaleX(2);
+				opacity: 0;
+				transform: scaleX(1);
+				transition: transform 150ms ease-in-out,
+					opacity 150ms ease-in-out;
+			}
+
+			&:hover {
+				.arrow-head {
+					transform: translateX(3px);
+				}
+
+				.arrow-body {
+					opacity: 1;
+					transform: scaleX(2);
+				}
 			}
 		}
 	}

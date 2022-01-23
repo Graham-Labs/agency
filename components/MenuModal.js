@@ -5,7 +5,10 @@ import MenuSection from "./MenuSection";
 
 const dropIn = {
 	hidden: {
-		y: "-100vh",
+		top: "20px",
+		right: "0",
+		transformOrigin: "top right",
+
 		opacity: 0,
 	},
 	visible: {
@@ -19,8 +22,11 @@ const dropIn = {
 		},
 	},
 	exit: {
-		y: "100vh",
+		// y: "100vh",
 		opacity: 0,
+		transition: {
+			duration: 0.1,
+		},
 	},
 };
 
@@ -28,7 +34,7 @@ const Modal = ({ handleClose, text }) => {
 	const services = [
 		{
 			title: "Computer Vision",
-			icon: "",
+			icon: "PaperAirplaneIcon",
 		},
 		{
 			title: "NLP Software",
@@ -60,7 +66,7 @@ const Modal = ({ handleClose, text }) => {
 				className="h-5 w-5 absolute top-[15px] right-[15px] text-gray-400 z-10"
 				viewBox="0 0 20 20"
 				fill="currentColor"
-                onClick={handleClose}
+				onClick={handleClose}
 			>
 				<path
 					fillRule="evenodd"
@@ -72,7 +78,10 @@ const Modal = ({ handleClose, text }) => {
 			<div className="h-full w-full flex flex-col items-center justify-center relative">
 				<MenuSection heading={"Services"} items={services} />
 				<MenuSection heading={"Portfolio"} items={services} />
-				<MenuSection heading={"How to work with us?"} items={services} />
+				<MenuSection
+					heading={"How to work with us?"}
+					items={services}
+				/>
 				<MenuSection heading={"Why us?"} items={services} />
 			</div>
 		</ModalWrapper>

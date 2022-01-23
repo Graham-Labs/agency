@@ -10,7 +10,7 @@ function Hamburger({ modalOpen, setModalOpen }) {
 	return (
 		<div
 			onClick={() => handleModal()}
-			className="bg-white p-2 rounded-md bg-opacity-5 hover:bg-opacity-20 duration-100 hover:cursor-pointer"
+			className="bg-white p-2 rounded-md bg-opacity-5 hover:bg-opacity-20 duration-100 hover:cursor-pointer xl:hidden"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"

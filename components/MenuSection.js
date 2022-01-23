@@ -1,22 +1,18 @@
+import { AnnotationIcon } from "@heroicons/react/solid";
+
 const MenuSection = ({ heading }) => {
 	return (
 		<ul className="flex flex-col justify-between items-center font-poppins font-normal text-[16px] my-1 w-full border-t-[#0a2540] border-dashed border-b-2 ">
 			<li className="my-3 w-full">
-				<div className="h-[40px] flex items-center px-7 font-medium text-gray-400">
+				<div className="h-[40px] flex items-center px-7 font-medium text-gray-400 mb-2">
 					{heading}
 				</div>
 				<ul className="w-full font-semibold text-[#0a2540] text-[13px] flex flex-col h-[180px] flex-wrap px-7">
 					<li className="my-2 flex items-center">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							className="h-5 w-5"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-						>
-							<path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
-						</svg>
+						<AnnotationIcon className="h-5 w-5" />
 						<p className="ml-2">Computer Vision</p>
 					</li>
+
 					<li className="my-2 flex">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
