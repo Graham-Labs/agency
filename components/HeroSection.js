@@ -55,6 +55,7 @@ function HeroSection() {
 			<h1 className="font-poppins z-0 absolute left-[30px] top-[200px] font-bold text-[40px] text-[#00ff0d] antialiased md:text-[70px] md:left-[150px]">
 				We make<br></br>digital products.<br></br>For startups and
 				brands.
+				
 			</h1>
 
 			<p></p>
