@@ -9,7 +9,7 @@ function Button({ text, bgColor, textColor, bgOpacity, visibility }) {
 			visibility={visibility}
 		>
 			<a href="#/" className="button button-arrow">
-				<p className="mr-1">{text}</p>
+				<p className="mr-1 select-none">{text}</p>
 
 				<svg
 					viewBox="0 0 6 9"
