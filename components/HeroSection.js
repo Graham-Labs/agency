@@ -47,7 +47,7 @@ function HeroSection() {
 				<Hamburger modalOpen={modalOpen} setModalOpen={setModalOpen} />
 			</div>
 
-			<h1 className="font-poppins z-10 absolute left-[30px] top-[200px] font-bold text-[40px] mix-blend-difference antialiased opacity-100 text-[#008cffe0] md:text-[70px] md:left-[150px]">
+			<h1 className="font-poppins z-10 absolute selection:bg-[#df0d0d] left-[30px] top-[200px] font-bold text-[40px] mix-blend-difference antialiased opacity-100 text-[#008cffe0] md:text-[70px] md:left-[150px]">
 				We make<br></br>digital products.<br></br>For startups and
 				brands.
 			</h1>
