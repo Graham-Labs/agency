@@ -22,6 +22,7 @@ function CompaniesWorkedWith() {
 				/>
 			</div>
 			<div className="h-12 relative md:h-10 xl:h-14">
+      
 				<Image
 					height={20}
 					objectFit={"contain"}
