@@ -4,6 +4,7 @@ import Hamburger from "./Hamburger";
 import Modal from "./MenuModal";
 import { AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import Image from "next/image";
 
 function HeroSection() {
 	const [modalOpen, setModalOpen] = useState(false);
@@ -91,7 +92,18 @@ function HeroSection() {
 				/>
 			</div>
 
-			<p></p>
+			<div className="absolute z-[100] top-24 -right-[130px]">
+				<div className="h-[700px] w-[700px] relative">
+					<Image
+						// priority={true}
+						layout={"fill"}
+						height={400}
+						objectFit="contain"
+						src="/HeroImage2.png"
+						alt={""}
+					/>
+				</div>
+			</div>
 		</div>
 	);
 }

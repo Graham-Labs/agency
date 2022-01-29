@@ -15,7 +15,7 @@ const HeroSection = dynamic(() => import("../components/HeroSection"), {
 
 export default function Home() {
 	return (
-		<div className="overflow-x-hidden relative">
+		<div className="scrollbar overflow-x-hidden relative">
 			<HiddenHeadTag />
 			{/* <ComingSoon /> */}
 
@@ -32,7 +32,7 @@ export default function Home() {
 				<HeroSectionBG></HeroSectionBG>
 			</div>
 
-			
+
 			<HeroSection />
 			<CompaniesWorkedWith />
 			<OurServices />
