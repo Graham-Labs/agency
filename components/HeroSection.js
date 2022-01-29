@@ -92,8 +92,8 @@ function HeroSection() {
 				/>
 			</div>
 
-			<div className="absolute z-[100] top-24 -right-[130px]">
-				<div className="h-[700px] w-[700px] relative">
+			<div className="absolute z-[100] top-32 -right-[130px] invisible xl:visible md:top-32 md:-right-[190px] xl:top-28 break:-right-[150px] 2xl:top-[70px]">
+				<div className="h-[700px] w-[700px] relative invisible xl:visible md:h-[500px] break:h-[600px] 2xl:h-[750px]">
 					<Image
 						// priority={true}
 						layout={"fill"}
