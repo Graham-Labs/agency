@@ -13,7 +13,7 @@ function HeroSection() {
 	};
 
 	return (
-		<div className="h-[850px] w-screen bg-white flex items-start relative overflow-y-visible">
+		<div className="flex flex-col h-[800px] w-screen bg-white items-start relative overflow-y-visible">
 			{/* <HeroSectionBG></HeroSectionBG> */}
 			<AnimatePresence
 				initial={false}
@@ -42,21 +42,54 @@ function HeroSection() {
 						Why us?
 					</li>
 				</ul>
-				<Button text={`Get quote`} />
+				<div className="hidden xl:flex">
+					<Button
+						text={`Get quote`}
+						bgColor={"#fcfcfc"}
+						textColor={"#fff"}
+						bgOpacity={{ normal: "36", hover: "52" }}
+						visibility={"flex"}
+					/>
+				</div>
 
 				<Hamburger modalOpen={modalOpen} setModalOpen={setModalOpen} />
 			</div>
 
-			<h1 className="font-poppins z-10 absolute selection:bg-[#df0d0d] left-[30px] top-[200px] font-bold text-[40px] mix-blend-difference antialiased opacity-100 text-[#008cffe0] md:text-[70px] md:left-[150px]">
-				We make<br></br>digital products.<br></br>For startups and
-				brands.
-			</h1>
+			<div className="flex flex-col relative mt-28 mx-[30px] w-[90%] z-30 md:mx-[150px] mix-blend-difference	">
+				<h1 className="font-poppins z-10  selection:bg-[#df0d0d] font-extrabold text-[40px] antialiased mix-blend-difference opacity-100 text-[#8ee600da] md:text-[70px] md:left-[150px]">
+					We make<br></br>digital products.<br></br>For startups and
+					brands.
+				</h1>
 
-			<h1 className="font-poppins z-0 absolute left-[30px] top-[200px] font-bold text-[40px] text-[#00ff0d] antialiased md:text-[70px] md:left-[150px]">
-				We make<br></br>digital products.<br></br>For startups and
-				brands.
-				
-			</h1>
+				{/* <h1 className="font-poppins z-0 font-bold text-[40px] text-[#00ff0d] antialiased md:text-[70px] md:left-[150px]">
+					We make<br></br>digital products.<br></br>For startups and
+					brands.
+				</h1> */}
+			</div>
+			<div className="mx-[30px] mt-[50px] w-[80%] font-poppins font-medium text-[#0C0D26] text-[15px] z-30 md:mx-[150px] md:max-w-[500px] md:text-[16px] md:mt-[30px]">
+				<p>
+					Millions of businesses of all sizes - from startups to large
+					enterprises - use Stripes software and APIs to accept
+					payments, send payouts, and manage their businesses online.
+				</p>
+			</div>
+
+			<div className="flex mx-[30px] w-[70%] mt-10 justify-between z-30 md:mx-[150px] md:max-w-[500px] md:text-[16px] md:mt-[30px] md:w-[28%]">
+				<Button
+					text={`Get quote`}
+					bgColor={"#22256D"}
+					textColor={"#FFFFFF"}
+					bgOpacity={{ normal: "", hover: "95" }}
+					visibility={"flex"}
+				/>
+				<Button
+					text={`Contact us`}
+					bgColor={"#22256D"}
+					textColor={"#22256D"}
+					bgOpacity={{ normal: "00", hover: "00" }}
+					visibility={"flex"}
+				/>
+			</div>
 
 			<p></p>
 		</div>

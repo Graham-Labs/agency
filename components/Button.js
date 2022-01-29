@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
-function Button({ text }) {
+function Button({ text, bgColor, textColor, bgOpacity, visibility }) {
 	return (
-		<ButtonContainer>
+		<ButtonContainer
+			bgColor={bgColor}
+			textColor={textColor}
+			bgOpacity={bgOpacity}
+			visibility={visibility}
+		>
 			<a href="#/" className="button button-arrow">
 				<p className="mr-1">{text}</p>
 
@@ -35,71 +40,74 @@ function Button({ text }) {
 export default Button;
 
 const ButtonContainer = styled.div`
-	display: none;
+	/* display: none; */
 
-	@media (min-width: 1280px) {
+	/* @media (min-width: 1280px) { */
+	display: ${(props) => props.visibility};
+
+	.button {
+		font-family: poppins, sans-serif;
+		border-radius: 20px;
+		color: ${(props) => props.textColor};
+		font-weight: light;
+		font-size: 14px;
+		padding: 8px 20px;
+		text-decoration: none;
+		transition: all 150ms ease-in-out;
+
 		display: flex;
 
-		.button {
-			font-family: poppins, sans-serif;
-			border-radius: 20px;
-			color: white;
-			font-weight: light;
-			font-size: 14px;
-			padding: 8px 20px;
-			text-decoration: none;
-			transition: all 150ms ease-in-out;
+		/* background-color: #fcfcfc36; */
+		background-color: ${(props) =>
+			props.bgColor + props.bgOpacity["normal"]};
 
-			display: flex;
-
-			background-color: #fcfcfc36;
-
-			&:hover {
-				background-color: #fcfcfc52;
-			}
-
-			&:not(:first-of-type) {
-				margin-left: 15px;
-			}
-
-			&.bg-blue {
-				color: #fff;
-
-				&:hover {
-					background-color: #0a2540;
-				}
-			}
+		&:hover {
+			/* background-color: #fcfcfc52; */
+			background-color: ${(props) =>
+				props.bgColor + props.bgOpacity["hover"]};
 		}
 
-		.button-arrow {
-			.arrow-icon {
-				overflow: visible;
-				margin-left: 3px;
-				width: 8px;
-			}
+		&:not(:first-of-type) {
+			margin-left: 15px;
+		}
 
-			.arrow-head {
-				transform: translateX(0);
-				transition: transform 150ms ease-in-out;
-			}
-
-			.arrow-body {
-				opacity: 0;
-				transform: scaleX(1);
-				transition: transform 150ms ease-in-out,
-					opacity 150ms ease-in-out;
-			}
+		&.bg-blue {
+			color: #fff;
 
 			&:hover {
-				.arrow-head {
-					transform: translateX(3px);
-				}
-
-				.arrow-body {
-					opacity: 1;
-					transform: scaleX(2);
-				}
+				background-color: #0a2540;
 			}
 		}
 	}
+
+	.button-arrow {
+		.arrow-icon {
+			overflow: visible;
+			margin-left: 3px;
+			width: 8px;
+		}
+
+		.arrow-head {
+			transform: translateX(0);
+			transition: transform 150ms ease-in-out;
+		}
+
+		.arrow-body {
+			opacity: 0;
+			transform: scaleX(1);
+			transition: transform 150ms ease-in-out, opacity 150ms ease-in-out;
+		}
+
+		&:hover {
+			.arrow-head {
+				transform: translateX(3px);
+			}
+
+			.arrow-body {
+				opacity: 1;
+				transform: scaleX(2);
+			}
+		}
+	}
+	/* } */
 `;

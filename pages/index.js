@@ -31,6 +31,8 @@ export default function Home() {
 			<div className="absolute left-0 top-0 right-0 h-[850px] z-[1]">
 				<HeroSectionBG></HeroSectionBG>
 			</div>
+
+			
 			<HeroSection />
 			<CompaniesWorkedWith />
 			<OurServices />
