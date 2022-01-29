@@ -13,8 +13,8 @@ function HeroSection() {
 	};
 
 	return (
-		<div className="h-[900px] w-screen bg-white flex items-start relative overflow-y-visible">
-			<HeroSectionBG></HeroSectionBG>
+		<div className="h-[850px] w-screen bg-white flex items-start relative overflow-y-visible">
+			{/* <HeroSectionBG></HeroSectionBG> */}
 			<AnimatePresence
 				initial={false}
 				exitBeforeEnter={true}
@@ -47,11 +47,12 @@ function HeroSection() {
 				<Hamburger modalOpen={modalOpen} setModalOpen={setModalOpen} />
 			</div>
 
-			<h1 className="font-poppins z-10 absolute left-[30px] top-[200px] font-bold text-[40px] mix-blend-normal antialiased opacity-80 text-[#e3f0ff] md:text-[70px] md:left-[150px]">
+			<h1 className="font-poppins z-10 absolute left-[30px] top-[200px] font-bold text-[40px] mix-blend-difference antialiased opacity-100 text-[#008cffe0] md:text-[70px] md:left-[150px]">
 				We make<br></br>digital products.<br></br>For startups and
 				brands.
 			</h1>
-			<h1 className="font-poppins z-0 absolute left-[30px] top-[200px] font-bold text-[40px] antialiased text-[#030b13] md:text-[70px] md:left-[150px]">
+
+			<h1 className="font-poppins z-0 absolute left-[30px] top-[200px] font-bold text-[40px] text-[#00ff0d] antialiased md:text-[70px] md:left-[150px]">
 				We make<br></br>digital products.<br></br>For startups and
 				brands.
 			</h1>

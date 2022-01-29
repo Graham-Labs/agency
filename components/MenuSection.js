@@ -1,4 +1,4 @@
-import { AnnotationIcon,PaperAirplaneIcon } from "@heroicons/react/solid";
+import { AnnotationIcon, PaperAirplaneIcon } from "@heroicons/react/solid";
 
 const MenuSection = ({ heading }) => {
 	return (
