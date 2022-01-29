@@ -3,6 +3,10 @@ import styles from "../styles/Home.module.css";
 import HiddenHeadTag from "../components/HiddenHeadTag";
 import ComingSoon from "../components/ComingSoon";
 import CompaniesWorkedWith from "../components/CompaniesWorkedWith";
+import WorkWithUs from "../components/WorkWithUs";
+import WhyUs from "../components/WhyUs";
+import ContactUs from "../components/ContactUs";
+import Footer from "../components/Footer";
 
 // import HeroSection from "../components/HeroSectionBG";
 import dynamic from "next/dynamic";
@@ -36,6 +40,10 @@ export default function Home() {
 			<HeroSection />
 			<CompaniesWorkedWith />
 			<OurServices />
+			<WorkWithUs />
+			<WhyUs />
+			<ContactUs />
+			<Footer />
 
 			{/* CompaniesWorkedWith */}
 			{/* Our Services */}
