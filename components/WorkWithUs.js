@@ -17,7 +17,7 @@ function WorkWithUs() {
 					How to work with us?
 				</p>
 
-				<h1 className="font-poppins font-bold text-[#eaebff] text-[40px] mt-3">
+				<h1 className="font-poppins font-bold text-[#eaebff] text-[35px] mt-3">
 					It is simple.<br></br>Two pathways.<br></br>Choose{" "}
 					<span className="text-[#00d4ff]">one</span>.
 				</h1>

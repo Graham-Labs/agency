@@ -43,14 +43,17 @@ function OurServices() {
 				</div>
 			</div>
 
-
 			<div className="flex items-center justify-center z-[100]">
-          
-					<div className="h-[460px] w-[430px] relative flex ">
-						<Image objectFit="contain" layout="fill" src={"/services_img.png"} alt={""}></Image>
-					</div>
-					
+				<div className="h-[460px] w-[430px] relative flex ">
+					<Image
+						priority={true}
+						objectFit="contain"
+						layout="fill"
+						src={"/services_img.png"}
+						alt={""}
+					></Image>
 				</div>
+			</div>
 		</div>
 	);
 }
