@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function OurServices() {
 	return (
-		<div className="h-[900px] bg-gray-100 flex mt-20 justify-center relative">
+		<div className="h-[1100px] bg-gray-100 flex mt-20 justify-center relative flex-col">
 			<div className="w-full mx-[20px] flex items-left pt-20 flex-col px-4 md:mx-[120px]">
 				<p className="font-poppins font-semibold text-[16px] text-[#020BA8]">
 					Our Services
@@ -42,24 +42,15 @@ function OurServices() {
 					/>
 				</div>
 			</div>
-			{/* <div className="bg-teal-200 w-full absolute flex flex-row flex-wrap top-[650px]">
+
+
+			<div className="flex items-center justify-center z-[100]">
           
-					<div className="h-[210px] w-[120px] relative flex ">
-						<Image objectFit="contain" layout="fill" src={"/1.png"} alt={""}></Image>
+					<div className="h-[460px] w-[430px] relative flex ">
+						<Image objectFit="contain" layout="fill" src={"/services_img.png"} alt={""}></Image>
 					</div>
-					<div className="h-[210px] w-[260px] relative">
-						<Image objectFit="contain" layout="fill" height={30} src={"/2.png"} alt={""}></Image>
-					</div>
-					<div className="h-[190px] w-44 relative">
-						<Image objectFit="contain" layout="fill" height={30} src={"/3.png"} alt={""}></Image>
-					</div>
-					<div className="h-[190px] w-44 relative">
-						<Image objectFit="contain" layout="fill" height={30} src={"/4.png"} alt={""}></Image>
-					</div>
-					<div className="h-[190px] w-44 relative">
-						<Image objectFit="contain" layout="fill" height={30} src={"/5.png"} alt={""}></Image>
-					</div>
-				</div> */}
+					
+				</div>
 		</div>
 	);
 }
