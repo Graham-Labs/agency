@@ -1071,6 +1071,7 @@ function HeroSectionBG() {
 
 		window.addEventListener("DOMContentLoaded", (e) => {
 			var gradient = new Gradient();
+			Gradient.amp = 20;
 			gradient.initGradient(canvasRef);
 		});
 	}, []);

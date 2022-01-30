@@ -57,7 +57,7 @@ function HeroSection() {
 			</div>
 
 			<div className="flex flex-col relative mt-28 mx-[30px] w-[90%] z-30 md:mx-[150px] mix-blend-difference">
-				<h1 className="font-poppins z-10  selection:bg-[#df0d0d] font-extrabold text-[40px] antialiased opacity-100 text-[#8de205da] md:text-[70px] md:left-[150px]">
+				<h1 className="font-poppins z-10  selection:bg-[#df0d0d] font-extrabold text-[40px] antialiased opacity-100 text-[#9cee04d5] md:text-[70px] md:left-[150px]">
 					We make<br></br>digital products.<br></br>For startups and
 					brands.
 				</h1>
