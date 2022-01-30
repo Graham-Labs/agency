@@ -11,7 +11,7 @@ function ContactUs() {
 		console.log("Form Submitted");
 	};
 	return (
-		<div className="h-[800px] flex items-center justify-center relative  md:mx-[120px]">
+		<div className="h-[800px] flex items-center justify-center relative mt-[100px] md:mx-[120px]">
 			<div
 				id="backgroundCut-contact"
 				className="bg-[#0a2540] h-[2200px] -top-[300px] z-[0]"
