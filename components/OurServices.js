@@ -13,7 +13,7 @@ function OurServices() {
 					Enhance your business presence with our tailored software
 				</h1>
 
-				<p className="font-poppins text-[#0C0D26] my-5 font-normal max-w-[330px]">
+				<p className="font-poppins text-[#0C0D26] my-5 font-normal max-w-[360px]">
 					Millions of businesses of all sizes - from startups to large
 					enterprises -{" "}
 					<span className="text-[#020BA8] font-bold">

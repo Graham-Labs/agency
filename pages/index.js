@@ -25,7 +25,7 @@ export default function Home() {
 
 			{/* Nav Bar */}
 			{/* Hero Section */}
-			<div className="flex absolute left-0 right-0 mx-[20px] border-dashed border-[#0000001f] border-l-2 border-r-2 z-[1] h-full pointer-events-none md:mx-[120px]">
+			<div className="flex absolute left-0 right-0 mx-[20px] border-dashed mix-blend-difference border-[#ffffff41] border-l-[1px] border-r-[1px] z-[1] h-full pointer-events-none md:mx-[120px]">
 				<div className="h-full w-full border-dotted border-r-2 border-[#0000001f] hidden md:flex"></div>
 				<div className="h-full w-full border-dotted border-r-2 border-[#0000001f] hidden md:flex"></div>
 				<div className="h-full w-full border-dotted border-r-2 border-[#0000001f] hidden md:flex"></div>

@@ -5,7 +5,6 @@ function CompaniesWorkedWith() {
 		<div className="mx-[20px] py-20 gap-y-20 grid grid-cols-2 md:grid-cols-4  md:mx-[120px] md:items-center">
 			<div className="h-8 relative md:h-10 xl:h-12">
 				<Image
-					height={20}
 					objectFit={"contain"}
 					layout="fill"
 					src={"/companies/klook.png"}
@@ -14,7 +13,6 @@ function CompaniesWorkedWith() {
 			</div>
 			<div className="h-10 relative md:h-10 xl:h-14">
 				<Image
-					height={20}
 					objectFit={"contain"}
 					layout="fill"
 					src={"/companies/singlife.png"}
@@ -24,7 +22,6 @@ function CompaniesWorkedWith() {
 			<div className="h-12 relative md:h-10 xl:h-14">
       
 				<Image
-					height={20}
 					objectFit={"contain"}
 					layout="fill"
 					src={"/companies/bowtie.png"}
@@ -33,7 +30,6 @@ function CompaniesWorkedWith() {
 			</div>
 			<div className="h-10  relative md:h-10 xl:h-14">
 				<Image
-					height={20}
 					objectFit={"contain"}
 					layout="fill"
 					src={"/companies/planto.png"}
@@ -41,39 +37,7 @@ function CompaniesWorkedWith() {
 				/>
 			</div>
 
-			{/* <div className="relative h-5">
-				<Image
-          height={20}
-					objectFit={"contain"}
-					layout="fill"
-					src={"/companies/klook.png"}
-					alt={""}
-				/>
-			</div>
-			<div className="relative h-5">
-				<Image
-					objectFit={"contain"}
-					layout="fill"
-					src={"/companies/klook.png"}
-					alt={""}
-				/>
-			</div>
-			<div className="relative h-5">
-				<Image
-					objectFit={"contain"}
-					layout="fill"
-					src={"/companies/klook.png"}
-					alt={""}
-				/>
-			</div>
-			<div className="relative h-5">
-				<Image
-					objectFit={"contain"}
-					layout="fill"
-					src={"/companies/klook.png"}
-					alt={""}
-				/>
-			</div> */}
+	
 		</div>
 	);
 }

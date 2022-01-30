@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
 	return (
-		<div className="h-[350px] mx-[20px] flex md:mx-[120px] md:h-[200px]">
+		<div className="h-[350px] mx-[20px] flex mt-[100px] md:mx-[120px] md:h-[200px]">
 			{/* <h1 className="text-[20px] font-bold text-gray-600">Footer</h1> */}
 
 			<div className="py-10 h-full w-full flex flex-col justify-between">
