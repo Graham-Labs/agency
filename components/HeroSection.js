@@ -5,6 +5,7 @@ import Modal from "./MenuModal";
 import { AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function HeroSection() {
 	const [modalOpen, setModalOpen] = useState(false);
@@ -33,14 +34,21 @@ function HeroSection() {
 					<li className="hover:cursor-pointer hover:opacity-90 duration-75">
 						Services
 					</li>
-					<li className="hover:cursor-pointer hover:opacity-90 duration-75">
-						Portfolio
-					</li>
+
 					<li className="hover:cursor-pointer hover:opacity-90 duration-75">
 						How we work?
 					</li>
 					<li className="hover:cursor-pointer hover:opacity-90 duration-75">
 						Why us?
+					</li>
+					<Link passHref href="/blog">
+						<li className="hover:cursor-pointer hover:opacity-90 duration-75">
+							Blog
+						</li>
+					</Link>
+
+					<li className="hover:cursor-pointer hover:opacity-90 duration-75">
+						Contact us
 					</li>
 				</ul>
 				<div className="hidden xl:flex">
