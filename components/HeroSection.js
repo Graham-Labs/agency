@@ -83,13 +83,13 @@ function HeroSection() {
 					bgOpacity={{ normal: "", hover: "95" }}
 					visibility={"flex"}
 				/>
-				<Button
+				{/* <Button
 					text={`Contact us`}
 					bgColor={"#22256D"}
 					textColor={"#22256D"}
 					bgOpacity={{ normal: "00", hover: "00" }}
 					visibility={"flex"}
-				/>
+				/> */}
 			</div>
 
 			<div className="absolute z-[100] top-32 -right-[130px] invisible xl:visible md:top-32 md:-right-[190px] xl:top-28 break:-right-[150px] 2xl:top-[70px]">

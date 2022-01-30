@@ -2,7 +2,7 @@ import React from "react";
 
 function WhyUs() {
 	return (
-		<div className="h-[1100px] mx-[20px] flex flex-col px-4 mt-[450px] mb-[210px] text-[#020ba8] md:mx-[120px] text-[15px]">
+		<div className="h-[1100px] mx-[20px] flex flex-col px-4 mt-[450px] mb-[220px] text-[#020ba8] md:mx-[120px] text-[15px] z-[2]">
 			{/* Heading */}
 			<p className="font-poppins font-semibold text-[16px] text-[#020ba8]">
 				Why graham labs?
