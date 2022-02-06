@@ -7,7 +7,7 @@ export default function Home({ newPosts, newPages }) {
 	return (
 		<div className="w-full h-full flex flex-col justify-center md:flex-row">
 			{/* <ScrollToTopButton /> */}
-			<h1 className="font-poppins font-bold ml-10 mt-10 text-[60px] md:flex md:justify-center">
+			<h1 className="font-poppins font-bold ml-10 mt-10 text-[60px] md:flex md:justify-center md:sticky">
 				Blog
 			</h1>
 			<ul className="m-10">
